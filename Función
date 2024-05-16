@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio de GPS para Autobuses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Logo Empresa">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#planes">Planes y Precios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="cta">
+                <a href="#registro" class="btn">Registrarse</a>
+                <a href="#login" class="btn">Iniciar Sesión</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1>Monitorea tu flota de autobuses en tiempo real</h1>
+            <p>Optimiza tus rutas y mejora la seguridad con nuestro avanzado servicio de GPS</p>
+            <a href="#planes" class="btn">Descubre nuestros planes</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="service-item">
+                <img src="realtime_tracking.png" alt="Seguimiento en tiempo real">
+                <h3>Seguimiento en tiempo real</h3>
+                <p>Monitorea la ubicación exacta de tus autobuses en cualquier momento.</p>
+            </div>
+            <div class="service-item">
+                <img src="detailed_reports.png" alt="Informes detallados">
+                <h3>Informes detallados</h3>
+                <p>Recibe informes detallados sobre el rendimiento y uso de tu flota.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="planes" class="pricing">
+        <div class="container">
+            <h2>Planes y Precios</h2>
+            <div class="pricing-table">
+                <div class="pricing-plan">
+                    <h3>Básico</h3>
+                    <p>$9.99/mes</p>
+                    <ul>
+                        <li>Seguimiento básico</li>
+                        <li>Reportes mensuales</li>
+                    </ul>
+                    <a href="#suscribirse" class="btn">Suscribirse</a>
+                </div>
+                <div class="pricing-plan">
+                    <h3>Profesional</h3>
+                    <p>$19.99/mes</p>
+                    <ul>
+                        <li>Seguimiento en tiempo real</li>
+                        <li>Reportes semanales</li>
+                        <li>Alertas personalizadas</li>
+                    </ul>
+                    <a href="#suscribirse" class="btn">Suscribirse</a>
+                </div>
+                <div class="pricing-plan">
+                    <h3>Premium</h3>
+                    <p>$29.99/mes</p>
+                    <ul>
+                        <li>Integración avanzada</li>
+                        <li>Soporte prioritario</li>
+                    </ul>
+                    <a href="#suscribirse" class="btn">Suscribirse</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="contact-info">
+                <p>Dirección: Calle Falsa 123, Ciudad</p>
+                <p>Teléfono: +123 456 789</p>
+                <p>Email: contacto@empresa.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
